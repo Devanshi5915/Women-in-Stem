@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width", initial-scale=1">
+	<title>Women in Stem</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="C://Users/De/Desktop/main.css">
+	<link rel="stylesheet" href="https://web.njit.edu/~dnj4/Project/slicknav.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="https://web.njit.edu/~dnj4/Project/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function (){
+		  $('#nav_menu').slicknav({prependTo: "#mobile_menu"});
+		})
+	</script>
+	
+	<style>
+ 
+                #mobile_menu { display: none; }
+   
+		@media only screen and (max-width: 959px) {
+			
+			h1{font-size:135%;}
+			h2, aside {font-size: 120%;}
+      
+    
+		}
+		@media only screen and (max-width: 767px) {
+     
+                .slicknav_menu {background-color: #800000 !important; }
+      
+			
+			.header_img {float: none;
+				     text-align: center;}
+			.pheader{text-align: center;}
+			section{
+				float: none;
+				width: 80%;
+			}
+			aside{
+				float:none;
+				padding-left: 20px;
+				padding-right: 20px;
+				width: 80%;
+			}
+			.imgarticle{max-width: 30%;}
+			div .side{
+			        -moz-column-count: 2;
+		         	-webkit-column-count: 2;
+		         	column-count: 2;
+			}
+    
+                }
+		
+                @media only screen and (max-width: 479px){
+			#nav_menu { display: none; }
+			#mobile_menu { display: block; }
+			font-size: 90%;
+      
+      
+                }
+	
+                 input[type=text], select, textarea {
+                        width: 100%;
+                        padding: 12px;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                        margin-top: 6px;
+                        margin-bottom: 16px;
+                        resize: vertical;
+                }
+
+                input[type=submit] {
+                     background-color:  #002233;
+                     color: white;
+                     padding: 12px 20px;
+                     border: none;
+                     border-radius: 4px;
+                     cursor: pointer;
+                }
+
+                .container {
+                    border-radius: 5px;
+                    background-color: #f2f2f2;
+                    padding: 20px;
+                }	
+		
+	</style>
+</head>
+
+<body>
+	<header>
+		<img src="C://Users/De/Desktop/STEMWomen2.png" alt="stem women" height="250" width="960" >
+		<!--<h2 class="header_font">San Joaquin Valley Town Hall</h2>
+		<h3 class="sub_heading">Celebrating our <em>75<sup>th</sup></em> Year</h3>-->
+		
+	</header>
+	
+	<nav id="mobile_menu"></nav>
+	<ul id="nav_menu">
+		<li><a id="current" href="C://Users/De/Desktop/index.html">Home</a></li>
+	        <li><a href="C://Users/De/Desktop/pursue.html">Pursue Stem</a></li>
+		<li><a href="C://Users/De/Desktop/videos.html">Videos</a></li>
+		<li><a href="C://Users/De/Desktop/contact.html">Contact Us</a></li>	
+		<li id="contributions"><a href="C://Users/De/Desktop/contributions.html">"Bits" of History</a>
+			<ul id="sub_menu">
+				<li><a href="C://Users/De/Desktop/ada.html">Ada Lovelace</a></li>
+				<li><a href="C://Users/De/Desktop/grace.html">Grace Hopper</a></li>
+				
+				
+			</ul>
+		</li>
+		
+	</ul>
+        
+         <main>
+		<section>
+		<h1>Contact Us</h1>
+                
+                <div style="line-height: 200%;">
+		<article>
+                    <p style="font-size: 18px;">
+                        We're happy to answer any questions you have or provide
+                        you with any information. Just send us a message in the
+                        form below.
+                    </p>
+                    
+                    
+                </article>    
+                </div>  
+                
+                <div class="container">
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                            
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        
+                        <label for="message">You Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message..."
+                            style="height:200px"></textarea>
+                        
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                 
+                </section>
+		
+		
+		<aside>
+			
+		<h2>More...</h2>
+		
+		<div class="side">
+			
+		<h3><a href="C://Users/De/Desktop/men.html">What about Men?</a></h3>
+		<div>
+			<img src="https://d30y9cdsu7xlg0.cloudfront.net/png/12017-200.png"
+					class="imgaside" alt="men" height="75">
+		</div>
+
+		
+		<h3><a href="C://Users/De/Desktop/resources.html">Resources</a></h3>
+		<div>
+			<img src="https://cdn2.iconfinder.com/data/icons/webi-con-4-black-solid/128/About_us_copy-256.png"
+					class="imgaside" alt="participation" height="60">
+		</div>
+		
+		</div>
+		
+		</aside>	
+		
+
+	</main>
+	<footer>
+		<p>&copy Copyright 2017 Devanshi Janani</p>
+		
+	</footer>
+        </main>
+</body>
+</html>
+                

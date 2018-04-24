@@ -1,0 +1,264 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 99%;  /*changed from 800px*/
+    max-width: 960px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid;
+    border-color: #00111a;
+    background-color: #fffded;
+}
+
+section{
+	width: 65.625%;
+	float: right;
+	padding: 20px 2.5%;
+	
+}
+
+aside{
+	width: 22.875%;
+	float: right;
+	padding: 20px 2.5%;
+	
+}
+
+.h3aside{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+.imgaside{
+	padding-bottom: 1em;
+}
+
+html {
+	background-color: white;
+}
+
+p.pheader{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	text-align: left;
+	padding-bottom: .5em;
+}
+
+/* the styles for the header */
+.header_img {
+	float: left;
+	margin-right: 30px;
+	margin-left: 30px;
+	/*padding-bottom: 1em;*/
+	
+}
+
+header .header_font{
+ font-size: 25px; 
+ margin-top: 0;
+ color: #7a7a52;
+}
+
+header .sub_heading {
+  
+  font-style: italic;
+  font-size: 20px;
+}
+
+
+
+em{
+	text-shadow: 4px 4px 8px #800000;
+}
+header{
+	/*border-bottom: 8px solid;
+	border-bottom-color: #00111a;*/
+	/*padding-top: 1.5em;*/
+	/*padding-bottom: 2em;*/
+	/*background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);*/
+}
+
+
+
+/*styles for the menu*/
+#nav_menu{
+display: block;
+list-style-type: none;
+margin: 0;
+padding: 0;
+position: relative;
+}
+
+li{
+  float: left;
+  
+}
+
+
+
+#nav_menu li a {
+ display: block;
+ width: 192px;
+ text-align: center;
+ padding-top: 1em;
+ padding-bottom: 1em; 
+ text-decoration: none;
+ background-color: #002233;
+ color: white;
+ font-weight: bold;
+
+}
+
+#current{color: yellow;}
+
+#sub_menu {
+   display: none;
+   position: absolute;
+   padding: 0;
+   clear: right;
+   list-style-type: none;
+
+}
+
+#nav_menu #contributions:hover #sub_menu{
+
+   display: block;
+}
+
+#sub_menu::after{
+  top: 100%;
+  left: 0;
+  
+
+ }
+
+/* for resources page */
+#square {list-style-type: square; }
+
+p.space { padding-top: 200px; }
+
+
+/* the styles for the section */
+main {
+	clear: right;
+	
+
+}
+
+
+h1{
+	font-size: 60px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #004266;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+ 
+}
+
+
+
+
+
+h2{
+	
+	font-size: 25px;
+	color: #002233;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	
+        
+}
+
+section ul {
+	
+	/*margin: 20px;*/
+	/*padding-bottom: 20px;*/
+	list-style: circle;
+}
+
+h3{
+	font-size: 130%;
+	/*font-size: 105%;
+	padding-bottom: .25em;*/
+}
+
+h6{
+	margin: 0;
+	padding: 0;
+	
+}
+blockquote{
+	padding-right: 2em;
+	padding-left: 2em;
+	font-style: italic;
+}
+
+/* the styles for the article*/
+
+article{
+	padding-top: .5em;
+	/*padding-bottom: .5em;*/
+	border-top: 2px solid;
+	/*border-bottom: 2px solid;*/
+	border-top-color: #800000;
+	/*border-bottom-color: #800000;*/
+}
+
+.imgarticle {
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	border: 1px solid;
+	border-color: black;
+	/*max-width: 40%;
+	min-width: 150px;*/
+}
+
+.h2article{
+	padding-top: 0;
+}
+
+.h3article{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+/* the styles for the footer */
+footer{
+	background-color: #002233;
+	text-align: center;
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	clear: right;
+	
+}
+
+ul{
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+
+/*li{
+	padding-bottom: .35em;
+}*/
+
+
+
+* {
+    /*margin:0;*/
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    /*vertical-align:baseline;*/
+    background:transparent;
+}
